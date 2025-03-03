@@ -1,14 +1,15 @@
 # toolwear-regressor
 
-This analysis is based on data from the paper:  
-**"The multi sensor-based machining signal fusion to compare the relative efficacy of machine learning-based tool wear models"**  
-Authored by **Pramod A., Deepak Lawrence K., and Jose Mathew**. Published in **Harvard Dataverse (2022)**.  
-[DOI: 10.7910/DVN/7IAJWU](https://doi.org/10.7910/DVN/7IAJWU)
 
 ## Overview
-- **Objective**: To define the anomaly range in tool wear using 12 variables derived from 7 types of sensory data.
-- **Labels**:
-  - **Continuous tool wear values**: Derived using label augmentation techniques by fitting discrete labels through a defined function.
+- **Objective**: To enhance tool wear prediction by augmenting the original dataset and refining the labeling process.
+- **Key Enhancements**:
+  - Augmented short-duration data into real-time 0.1s interval data.
+  - Expanded the existing tool-wear values for more precise predictions.
+  - Developed a more accurate tool wear prediction model by leveraging domain knowledge and exploratory data analysis (EDA).
+  - Introduced additional categorical labels to improve experimental robustness and analysis.
+
+This repository contains code implementing these enhancements to create a more refined tool wear prediction framework.
 
 
 ## Data Preprocessing
